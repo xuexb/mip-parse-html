@@ -1,0 +1,42 @@
+{
+  "name": "mip-parse-html",
+  "version": "0.0.1",
+  "description": "解析 HTML 代码为 MIP-HTML",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "test",
+        "chore",
+        "revert",
+        "release"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuexb/mip-parse-html.git"
+  },
+  "keywords": [
+    "MIP",
+    "MIP-HTML"
+  ],
+  "author": "xuexb <fe.xiaowu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/mip-parse-html/issues"
+  },
+  "homepage": "https://github.com/xuexb/mip-parse-html#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
