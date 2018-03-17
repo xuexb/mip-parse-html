@@ -36,11 +36,11 @@ const html = new ParseHTML(content, options);
 - [x] 根据配置的 `options.canonical` 自动插入 `<link rel="canonical">` 标签
 - [x] 自动抽离元素中的 `style` 属性，并添加随机数前插到 `<style mip-custom>` 中
 - [x] 自动移除 `<script>` 、`<frame>` 、`<frameset>` 、`<object>` 、`<param> ` 、`<applet>` 、`<embed>` 标签
-- [ ] 自动替换页面中 `<img>` 标签为 `<mip-img>`
-- [ ] 自动替换页面中 `<video>` 为 `<mip-video>`
-- [ ] 自动替换页面中 `<audio>` 为 `<mip-audio>`
-- [ ] 自动替换页面中 `<iframe>` 为 `<mip-iframe>`
-- [ ] 自动替换页面中 `<form>` 为 `<mip-form>`
+- [x] 自动替换页面中 `<img>` 标签为 `<mip-img>`
+- [x] 自动替换页面中 `<video>` 为 `<mip-video>`
+- [x] 自动替换页面中 `<audio>` 为 `<mip-audio>`
+- [x] 自动替换页面中 `<iframe>` 为 `<mip-iframe>`
+- [x] 自动替换页面中 `<form>` 为 `<mip-form>`
 
 ## License
 MIT
