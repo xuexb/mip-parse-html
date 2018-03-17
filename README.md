@@ -16,9 +16,24 @@ npm install mip-parse-html
 ```js
 const ParseHTML = require('mip-parse-html');
 
+// 配置参数
 const options = {};
 
-const html = new ParseHTML(html, options);
+// 解析
+const parse = new ParseHTML(html, options);
+
+// 输出解析后的格式化代码
+const html = parse.format();
+
+// 输出解析后的压缩代码
+const html = parse.html();
+
+// 输出解析后的验证结果，代码是基于 format 方法验证
+// {
+//     status: 'pass',// fail
+//     errors: []
+// }
+const result = parse.validate();
 ```
 
 ## 配置

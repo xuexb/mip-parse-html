@@ -44,6 +44,7 @@
     "crypto-random-string": "^1.0.0",
     "html-minifier": "^3.5.11",
     "htmlcs": "^0.4.1",
+    "mip-validator": "^1.5.15",
     "require-dir": "^1.0.0"
   },
   "engines": {
