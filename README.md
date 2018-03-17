@@ -1,4 +1,5 @@
 # mip-parse-html
+
 解析 HTML 代码为 MIP-HTML
 
 [![NPM Version](https://img.shields.io/npm/v/mip-parse-html.svg)](https://www.npmjs.com/package/mip-parse-html)
@@ -14,7 +15,10 @@ npm install mip-parse-html
 解析：
 ```js
 const ParseHTML = require('mip-parse-html');
-const html = new ParseHTML(content, options);
+
+const options = {};
+
+const html = new ParseHTML(html, options);
 ```
 
 ## 配置
@@ -41,6 +45,10 @@ const html = new ParseHTML(content, options);
 - [x] 自动替换页面中 `<audio>` 为 `<mip-audio>`
 - [x] 自动替换页面中 `<iframe>` 为 `<mip-iframe>`
 - [x] 自动替换页面中 `<form>` 为 `<mip-form>`
+
+## 声明
+
+该模块（[mip-parse-html](https://github.com/xuexb/mip-parse-html)）是显式的将明显的错误进行处理，但处理后不一定完全符合 [MIP-HTML 规范](https://www.mipengine.org/doc/2-tech/1-mip-html.html)，并且处理之后可能导致页面中部分功能缺失（如被删除的 JS 代码功能、自动处理的样式可能存在问题），请按需修改。
 
 ## License
 MIT
