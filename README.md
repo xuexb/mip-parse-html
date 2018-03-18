@@ -47,11 +47,13 @@ const result = parse.validate();
 
 ## 功能列表
 
+- [x] 自动修正 `<!doctype html>` 文档头，目前支持 `未定义`、`HTML4.1`、`HTML5` 的修正
 - [x] 自动添加 `<html mip>` 属性
 - [x] 自动添加 `<noscript>` 标签
 - [x] 自动添加 `mip.css` 引用
 - [x] 自动添加 `mip.js` 引用
 - [x] 自动添加 `<meta name="viewport">` 标签
+- [x] 自动删除元素上 `onxxx=""` 事件属性
 - [x] 合并页面中多个 `<style>` 标签，并插入到 `<head>` 标签内的 `<style mip-custom>` 中
 - [x] 处理页面中的 `<a>` 标签，根据配置 `options.miplink` 自动处理是否添加 `data-type="mip"`
 - [x] 根据配置的 `options.canonical` 自动插入 `<link rel="canonical">` 标签
