@@ -4,6 +4,8 @@
 
 [![NPM Version](https://img.shields.io/npm/v/mip-parse-html.svg)](https://www.npmjs.com/package/mip-parse-html)
 ![node version required](https://img.shields.io/badge/node-%3E=4.0.0-green.svg)
+[![build status](https://img.shields.io/travis/xuexb/mip-parse-html/master.svg)](https://travis-ci.org/xuexb/mip-parse-html)
+[![test coverage](https://img.shields.io/coveralls/xuexb/mip-parse-html/master.svg)](https://coveralls.io/r/xuexb/mip-parse-html?branch=master)
 
 ## 使用
 
