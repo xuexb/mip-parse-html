@@ -20,13 +20,8 @@ describe('cases', () => {
             const html = fs.readFileSync(path.resolve(__dirname, uri)).toString();
 
             return {
-                uri,
-                path: uri,
                 html,
-                title: (html.match(/<title>(.+?)<\/title>/) || ['', uri])[1]
-                    .replace(/&lt;/g, '<')
-                    .replace(/&gt;/, '>')
-                    .replace(/&quot;/g, '"')
+                title: uri
             };
         });
 
