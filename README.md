@@ -22,7 +22,7 @@ const ParseHTML = require('mip-parse-html');
 const options = {};
 
 // 解析
-const parse = new ParseHTML(html, options);
+const parse = new ParseHTML(content, options);
 
 // 输出解析后的格式化代码
 const html = parse.format();
