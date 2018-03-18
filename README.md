@@ -42,7 +42,7 @@ const result = parse.validate();
 
 名称 | 说明 | 类型 | 默认值
 --- | --- | --- | ---
-`canonical` | 插入页面的 `<link rel="canonical" href="">`<br>如果为 `null` 则使用原页面的标签 | `string`、`null` | `'https://www.mipengine.org/'`
+`canonical` | 插入页面的 `<link rel="canonical" href="">`<br>如果为 `null` 则不处理 | `string`、`null` | `'https://www.mipengine.org/'`
 `miplink` | 自动处理添加 `data-type="mip"` 链接的配置列表 | `Array.string`、`Array.RegExp` | `[/^\/(?!\/)/]`<br>（处理以 `/` 开始的链接）
 
 ## 功能列表

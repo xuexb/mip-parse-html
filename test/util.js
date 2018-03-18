@@ -5,7 +5,7 @@
 
 'use strict';
 
-const expect = require('chai').expect
+const expect = require('chai').expect;
 const util = require('../lib/util');
 
 describe('util.js', () => {

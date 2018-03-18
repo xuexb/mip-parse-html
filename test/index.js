@@ -5,8 +5,8 @@
 
 'use strict';
 
-const expect = require('chai').expect
-const ParseHTML = require('../lib/index');
+const expect = require('chai').expect;
+const ParseHTML = require('../');
 
 describe('index.js', () => {
     describe('.html()', () => {
@@ -35,11 +35,11 @@ describe('index.js', () => {
         });
 
         it('the return parameter status should be a string', () => {
-            expect(new ParseHTML('<div></div>').validate().status).to.be.a('string').and.to.equal('fail');
+            expect(new ParseHTML('<input>').validate().status).to.be.a('string').and.to.equal('fail');
         });
 
         it('the return parameter errors should be a array', () => {
-            expect(new ParseHTML('<div></div>').validate().errors).to.be.a('array').and.to.not.empty;
+            expect(new ParseHTML('<input>').validate().errors).to.be.a('array').and.to.not.empty;
         });
 
         it('should work', () => {

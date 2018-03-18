@@ -7,7 +7,7 @@
 
 const path = require('path');
 const mock = require('mock-require');
-const expect = require('chai').expect
+const expect = require('chai').expect;
 
 describe('load.js', () => {
     afterEach(() => {

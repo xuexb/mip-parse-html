@@ -5,7 +5,7 @@
 
 'use strict';
 
-const expect = require('chai').expect
+const expect = require('chai').expect;
 const config = require('../lib/config');
 
 describe('config.js', () => {
