@@ -28,11 +28,11 @@ const parse = new ParseHTML(content, options);
 const html = parse.format();
 
 // 输出解析后的压缩代码
-const html = parse.html();
+const minhtml = parse.html();
 
 // 输出解析后的验证结果，代码是基于 format 方法验证
 // {
-//     status: 'pass',// fail
+//     status: 'pass',// 或者 fail
 //     errors: []
 // }
 const result = parse.validate();
