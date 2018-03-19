@@ -1,6 +1,6 @@
 {
   "name": "mip-parse-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "解析 HTML 代码为 MIP-HTML",
   "main": "lib/index.js",
   "scripts": {
